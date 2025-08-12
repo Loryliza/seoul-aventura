@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cultura y Tradiciones de Corea</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/bootstrap.bundle.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg" style="background-color: #FFF5F2;">
+  <div class="container"> 
+    <a class="navbar-brand text-dark fw-bold" href="indexcorea.html">Seoul Aventura</a>
+    
+    <!-- Botón hamburguesa -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+    </button>
+
+    <!-- Menú -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        
+        <!-- Inicio -->
+        <li class="nav-item">
+          <a class="nav-link active text-dark" aria-current="page" href="indexcorea.html">Inicio</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="practicasDropdown" role="button" 
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Descubre Corea
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="practicasDropdown">
+            <li><a class="dropdown-item" href="cultura_tradiciones.html">Cultura y Tradiciones</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="gastronomia.html">Gastronomía Coreana</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="eventos.html">Eventos y Festividades</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="historia.html">Historia y Patrimonio</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="kpop.html">K-Pop y Entretenimiento</a></li>
+          </ul>
+        </li>
+
+        <!-- Planifica tu viaje -->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="planifica_tu_viaje.html">Planifica tu Viaje</a>
+        </li>
+      </ul>
+
+      <!-- Buscador -->
+      <form class="d-flex ms-lg-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="Imagenes/1.jpg" class="d-block w-100" alt="Paisaje Corea 1" style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Bienvenidos a Corea</h4>
+          <p class="h4">Descubre paisajes, cultura y experiencias únicas en el corazón de Asia.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Imagenes/2.jpg" class="d-block w-100" alt="Paisaje Corea 2" style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Viaja por Corea del Sur</h4>
+          <p class="h4">Desde Seúl hasta Busan, cada rincón cuenta una historia inolvidable.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Imagenes/3.jpg" class="d-block w-100" alt="Paisaje Corea 3" style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Explora Corea</h4>
+          <p class="h4">Gastronomía, tradición y modernidad en un solo destino.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Imagenes/4.jpg" class="d-block w-100" alt="Paisaje Corea 4" style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Tu Aventura en Corea</h4>
+          <p class="h4">Vive la experiencia coreana como nunca antes.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Imagenes/5.jpg" class="d-block w-100" alt="Paisaje Corea 5" style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Corea te Espera</h4>
+          <p class="h4">Cultura milenaria, ciudades vibrantes y naturaleza impresionante.</p>
+        </div>
+      </div>
+
+    </div>
+	  
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+
+  </div>
+</header>
+
+
+<main class="container-fluid px-0">
+  <h2 class="text-center text-white m-0 p-3" style="background-color: #064232;">Culturas y Tradiciones de Corea del Sur</h2>
+  
+  <div class="container my-4 rounded-4" style="background-color: #568F87; padding: 10px;">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/hanbok.jpg" class="card-img-top" alt="Hanbok" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Hanbok: El traje tradicional coreano</h5>
+            <p class="card-text">El Hanbok es el traje tradicional de Corea, usado en ocasiones especiales como festividades y ceremonias. Se caracteriza por sus líneas simples y colores vivos que representan la belleza y la elegancia coreana.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Imagenes/festividades.jpg" class="card-img-top" alt="Festividades tradicionales" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Festividades tradicionales</h5>
+            <p>Entre las festividades más importantes destacan:</p>
+            <ul>
+              <li><strong>Seollal:</strong> Año Nuevo Lunar, con rituales familiares y comidas típicas.</li>
+              <li><strong>Chuseok:</strong> Festival de la cosecha, similar al Día de Acción de Gracias, donde se honra a los antepasados.</li>
+              <li><strong>Dano:</strong> Celebración de la primavera con juegos tradicionales y música.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/musica.jpg" class="card-img-top" alt="Música tradicional coreana" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Arte y música tradicional</h5>
+            <p>El arte coreano incluye la caligrafía, la cerámica y la pintura. La música tradicional, como el <em>gugak</em>, es apreciada tanto dentro como fuera del país, destacando instrumentos como el gayageum y el janggu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+ <footer class="text-dark" style="background-color: #FFF5F2;">
+  <div class="container py-4">
+    <div class="row">
+
+      <div class="col-md-6 mb-4">
+         <h5 class="fw-bold mb-3">Seoul Aventura</h5>
+
+		  <p>
+			<i class="bi bi-telephone-fill me-2 text-dark"></i>
+			+82 2-123-4567
+		  </p>
+		  <p>
+			<i class="bi bi-whatsapp me-2 text-dark"></i>
+			<a href="https://wa.me/8221234567" target="_blank" class="text-dark text-decoration-none">
+			  WhatsApp
+			</a>
+		  </p>
+		  <p>
+           <i class="bi bi-envelope-fill me-2 text-dark"></i>
+          info@seoulaventura.kr
+          </p>
+          <p>
+			<a href="https://www.seoulaventura.kr" target="_blank" class="text-dark text-decoration-none">
+				  https://www.seoulaventura.kr
+			</a>
+          </p>
+     </div>
+
+      <div class="col-md-6 mb-4">
+        <h5 class="fw-bold mb-3">Horario de Atención</h5>
+        <div class="row mb-3">
+          <div class="col-6">
+            <p class="mb-1">Lunes a Viernes</p>
+            <p>9:00 a.m. - 6:00 p.m.</p>
+          </div>
+          <div class="col-6">
+            <p class="mb-1">Sábados</p>
+            <p>10:00 a.m. - 4:00 p.m.</p>
+          </div>
+        </div>
+        <p class="mb-2">Síguenos en</p>
+        <div class="d-flex gap-3 fs-4">
+          <a href="https://www.instagram.com/seoulaventura" target="_blank" class="text-dark">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/seoulaventura" target="_blank" class="text-dark">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://twitter.com/seoulaventura" target="_blank" class="text-dark">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/seoulaventura" target="_blank" class="text-dark">
+            <i class="bi bi-youtube"></i>
+          </a>
+          <a href="https://www.tiktok.com/@seoulaventura" target="_blank" class="text-dark">
+            <i class="bi bi-tiktok"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bg-dark text-center py-3" style="border-top: 1px solid #444;">
+  <div class="container">
+    <div class="row text-white small">
+      <div class="col-md">
+        <a href="#" class="text-white text-decoration-none">Términos y Condiciones</a>
+      </div>
+      <div class="col-md">
+        <a href="#" class="text-white text-decoration-none">Políticas de Privacidad</a>
+      </div>
+      <div class="col-md">
+        <a href="#" class="text-white text-decoration-none">Libro de Reclamaciones</a>
+      </div>
+      <div class="col-md">
+        <a href="#" class="text-white text-decoration-none">Portal de Transparencia</a>
+      </div>
+    </div>
+    <div class="mt-2 text-white small">
+      © 2025 Seoul Aventura - Todos los derechos reservados
+    </div>
+  </div>
+</div>
+
+</footer>
+
+</body>
+</html>
